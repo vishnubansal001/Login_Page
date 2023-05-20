@@ -62,7 +62,7 @@ const SignIn = () => {
         console.log(res);
         setUser(res.user);
         setLoading(false);
-        navigate("/sign-up");
+        navigate("/sign-in");
       })
       .catch((err) => {
         console.log(err);
